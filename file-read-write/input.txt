@@ -1,0 +1,4 @@
+This file contains input for a Python read-file test program.
+This is the second line of text
+This is the thrid line of text
+The is the last line (EOF)
