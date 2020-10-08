@@ -25,13 +25,13 @@ def write_file(filename, content):
     file.close()
 
 
-FilePathAndName = str('file-read-write/input.txt')
+FilePathAndName = 'file-read-write-input.txt'
 print('Let\'s read content of ', FilePathAndName, '...')
 FileContent = read_file(FilePathAndName)
 print('Here\'s the content of the file:\n', FileContent)
 
 
-FilePathAndName = 'file-read-write/output.txt'
+FilePathAndName = 'file-read-write-output.txt'
 OutputFileContent = str ('Output file content')
 print('Let\'s write \'', OutputFileContent, '\' to ', FilePathAndName)
 write_file(FilePathAndName, OutputFileContent)
